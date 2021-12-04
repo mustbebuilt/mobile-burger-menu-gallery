@@ -1,11 +1,11 @@
-header,
+.header,
 .mainContent,
 .row {
   max-width: 1200px;
   padding: 0 5px;
   margin: auto;
 }
-header {
+.header {
   justify-content: flex-end;
   padding: 0 0 0 5px;
 }
@@ -67,7 +67,7 @@ img {
   padding: 0 0 0 10px;
   margin: 0 auto;
 }
-main {
+.mainStuff {
   flex-basis: 70%;
 }
 .newsTxt h2 {
@@ -109,11 +109,11 @@ main {
 .newsPhoto > img {
   width: 100%;
 }
-footer {
+.footer {
   margin: 0 auto;
   padding: 15px 5px 5px 5px;
 }
-footer .row {
+.footer .row {
   justify-content: space-between;
   flex-wrap: nowrap;
   flex-direction: row;

@@ -10,9 +10,17 @@ body {
   width: 100%;
   min-width: 320px;
 }
-header {
+.header {
   display: flex;
   flex-wrap: wrap;
+}
+.subheading{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.sideBarSubheading{
+	font-size: 1.17em;
+	font-weight: bold;
 }
 .logo {
   /*  Don't set flex-basis as wrap will overule it just set to grow and shrink */
@@ -147,16 +155,16 @@ img {
   flex-basis: 50%;
   padding: 0 10px;
 }
-footer {
+.footer {
   background-color: #011424;
   color: #fff;
   padding: 0 10px;
 }
-footer .row {
+.footer .row {
   display: flex;
   flex-direction: column;
 }
-footer .row address {
+.footer .row address {
   padding: 15px 0 5px 5px;
 }
 .footerSocialLinks {
@@ -196,4 +204,7 @@ footer .row address {
 }
 .footerLinks li a:hover {
   text-decoration: underline;
+}
+.address{
+	font-style: italic;
 }
